@@ -58,13 +58,60 @@
     <main>
       <!--section1-->
       <section class="section-one">
-        <div class="backdrop">
-          <div class="is-open">
-            <div class="container">
-              <h1 class="solutions">Effective Solutions for Your Business</h1>
-              <button class="but-order" type="button">Order Service</button>
+        <!-- ============backdrop==================== -->
+        <div class="backdrop is-open">
+          <form class="form-touch" name="touch">
+            <fieldset>
+              <legend class="back-header">
+                Leave your contacts and we will call tou back
+              </legend>
+              <label class="form-label" for="user-name">Name</label>
+              <input
+                class="form-input"
+                type="text"
+                name="user-name"
+                id="user-name"
+              />
+              <label class="form-label" for="user-tel">Phone </label
+              ><input class="form-input" type="tel" name="tel" id="user-tel" />
+              <label class="form-label" for="email">Email </label
+              ><input class="form-input" type="email" name="email" id="email" />
+              <label class="form-label" for="textarea">Comment </label
+              ><textarea
+                name="comment"
+                rows="5"
+                class="form-input"
+                id="textarea"
+                placeholder="Text input"
+              ></textarea>
+            </fieldset>
+
+            <!-- <div class="form-container"></div>
+              <div class="form-container"></div>
+              <div class="form-container"></div>
+              <div class="form-container"></div>-->
+            <div class="form-container">
+              <label class="form-label" for="checkbox"
+                >I accept the terms and conditions of the </label
+              ><input
+                class="form-input"
+                type="checkbox"
+                name="checkbox"
+                id="checkbox"
+              />
             </div>
-          </div>
+            <button class="close" type="button">
+              <svg class="close-svg" width="8" height="8">
+                <use href="./images/icons.svg#icon-close-black-dp"></use>
+              </svg>
+            </button>
+            <button class="btn-send" type="submit">Send</button>
+          </form>
+        </div>
+        <!-- ============backdrop==================== -->
+        <div class="container">
+          <h1 class="solutions">Effective Solutions for Your Business</h1>
+          <button class="but-order" type="button">Order Service</button>
         </div>
       </section>
 
@@ -482,7 +529,7 @@
     </footer>
 
     <!-- =================form=================== -->
-    <form name="touch" class="form-touch">
+    <!-- <form name="touch" class="form-touch">
       <p>Leave your contacts and we will call tou back</p>
       <div class="form-container">
         <label class="form-label" for="user-name">Name</label>
@@ -518,7 +565,7 @@
       </div>
       <button class="close" type="button"></button>
       <button class="btn-send" type="submit">Send</button>
-    </form>
+    </form> -->
     <!-- =================form=================== -->
   </body>
 </html>
