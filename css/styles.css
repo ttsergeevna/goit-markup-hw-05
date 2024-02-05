@@ -1,20 +1,24 @@
 a{
     text-decoration: none;
 }
+
 ul{
     list-style: none;
     margin: 0;
     padding: 0;
 }
+
 body{
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #ffffff;
 
 }
+
 p, h1, h2, h3, h4, h5, h6{
     margin:0;
 }
+
 img{
     display:block;
 }
@@ -93,6 +97,7 @@ img{
 .nav-text:focus {
     color: #404BBF;
 }
+
 .address-text{
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -132,7 +137,7 @@ img{
 /* ====================================================================*/
 /* section 1  hero======================================================*/
 .section-one {
-    max-width: 1440px;
+    /* max-width: 1440px; */
     height: 600px;
     background-color: #2E2F42;
     text-align: center;
@@ -183,118 +188,6 @@ img{
 .but-order:focus{
     background-color:#404BBF;
 }
-/* =====backdrop======== */
-
-.backdrop {
-    position: fixed;
-    /* overflow: hidden; */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(33, 33, 33, 0.9);
-}
-
-.backdrop .is-open{
-    opacity: 0;
-    pointer-events: none;
-
-}
-/* ===================== */
-/* ==========================form========================= */
-.form-touch {
-    position: relative;
-
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-
-
-    border: 1px solid #212121;
-    border-radius: 4px;
-    width: 408px;
-    height: 584px;
-    background-color: #ffffff;
-
-    /* display: flex;
-    flex-direction: column;
-    gap: 24px;
-    justify-content: center;
-    align-items: center; */
-
-    margin: 0 auto;;
-    padding-top: 75px;
-    padding-bottom: 24px;
-}
-
-.back-header {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-}
-
-.btn-send {
-    font-family: "Roboto", sans-serif;
-    color: #ffffff;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    border-radius: 4px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4D5AE5;
-
-}
-
-.form-label {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.form-input {
-    padding: 5px 10px;
-    color: #212121;
-    border: 1px solid #212121;
-    border-radius: 4px;
-    width: 360px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
-.form-input:hover,
-.form-input:focus {
-    color: #4D5AE5;
-    border: 1px solid #4D5AE5;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/* ==============button close======================== */
-.close {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 100%;
-    width: 24px;
-    height: 24px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-}
-.close-svg{
-    fill: #2e2f42;
-}
-
-/* ==========================form========================= */
 
 /* section 2 */
 .visually-hidden {
@@ -593,6 +486,187 @@ background-color: #31d0aa;
     gap: 16px;
 }
 
+.subscribe{
+font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+
+}
+
+.email{
+    margin-top: 22px;
+    margin-right: 24px;
+    padding: 13px;
+    background-color: #2E2F42;
+
+    border: 1px solid #ffffff;
+        border-radius: 4px;
+        width: 264px;
+        height: 40px;
+
+
+        display: flex;
+    
+}
+.email::placeholder{
+    color: #ffffff;
+}
+
+.email-inp{
+    margin-left: 78px;
+}
+
+.btn-email{
+}
+
+/* ========footer================================================ */
 
 
 
+/* =====backdrop======== */
+
+.backdrop {
+    position: fixed;
+    /* overflow: hidden; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 33, 33, 0.9);
+    /* opacity: 0; */
+    /* pointer-events: none; */
+}
+
+.backdrop .is-open {
+    /* opacity: 0; */
+    /* pointer-events: none; */
+
+}
+
+/* ===================== */
+/* ==========================form========================= */
+.form-touch {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+    border: 1px solid #212121;
+    border-radius: 4px;
+    width: 408px;
+    height: 584px;
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+    /* padding-top: 75px;
+    padding-bottom: 24px; */
+    padding: 72px 24px 0;
+    /* opacity: 0; */
+}
+
+.back-header {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 16px;
+    /* margin: 72px 24px 16px; */
+}
+
+.form-container{
+    position: relative;
+}
+
+.btn-send {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4D5AE5;
+
+}
+
+.form-label {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.form-input {
+    position: relative;
+
+
+    padding: 5px 10px;
+    color: #212121;
+    border: 1px solid #212121;
+    border-radius: 4px;
+    width: 360px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.form-input:hover,
+.form-input:focus {
+    color: #4D5AE5;
+    border: 1px solid #4D5AE5;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon{
+    position: absolute;
+    top: 23px;
+    left:13px;
+
+    fill:#212121;
+}
+
+.icon:hover,
+.icon:focus {
+    fill: #4D5AE5;
+    border: 1px solid #4D5AE5;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+/* ==============button close======================== */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 100%;
+    width: 24px;
+    height: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.close-svg {
+    fill: #2e2f42;
+}
+
+/* ==========================form========================= */
