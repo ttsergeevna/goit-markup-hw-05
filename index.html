@@ -476,13 +476,18 @@
         </div>
         <div class="email-inp">
           <p class="subscribe">Subscribe</p>
-          <input class="email" type="email" placeholder="E-mail" />
-          <button class="btn-email" type="button">
-            Subscribe
-            <svg class="icon-subscribe" width="24" height="24">
-              <use href="./images/icons.svg#icon-Frame"></use>
-            </svg>
-          </button>
+          <div class="wrap-form-footer"></div>
+
+          <form class="form-footer">
+            <label class="label-footer"
+              ><input class="email" type="email" placeholder="E-mail" />
+              <button class="btn-email" type="button">
+                Subscribe
+                <svg class="icon-subscribe" width="24" height="24">
+                  <use href="./images/icons.svg#icon-Frame"></use>
+                </svg></button
+            ></label>
+          </form>
         </div>
       </div>
     </footer>
@@ -490,7 +495,7 @@
     <!-- =================form=================== -->
 
     <!-- ============backdrop==================== -->
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <form class="form-touch" name="touch">
         <div class="form-main-cont">
           <p class="back-header">
