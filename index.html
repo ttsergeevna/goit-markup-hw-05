@@ -497,17 +497,14 @@
 
     <!-- ============backdrop==================== -->
     <div class="backdrop is-open">
-      <form class="form-touch" name="touch">
-        <div class="form-main-cont">
-          <button class="close" type="button">
-            <svg class="close-svg" width="8" height="8">
-              <use href="./images/icons.svg#icon-close-black"></use>
-            </svg>
-          </button>
-          <p class="back-header">
-            Leave your contacts and we will call tou back
-          </p>
-
+      <div class="wrap-footer">
+        <button class="close" type="button">
+          <svg class="close-svg" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <p class="back-header">Leave your contacts and we will call tou back</p>
+        <form class="form-touch" name="form">
           <label class="form-label">Name</label>
           <div class="form-input-icon">
             <input class="form-input" type="text" name="user-name" />
@@ -559,10 +556,10 @@
               </svg>
             </span>
           </div>
-        </div>
+        </form>
 
         <button class="btn-send" type="submit">Send</button>
-      </form>
+      </div>
     </div>
     <!-- ============backdrop==================== -->
     <!-- =================form=================== -->
