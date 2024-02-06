@@ -861,11 +861,11 @@ form-label-div{
 }
 
 
-.close:hover + .close-svg{
+.close:hover ~ .close-svg{
     fill: #ffffff;
 }
 
-.close:focus + .close-svg {
+.close:focus ~ .close-svg {
     fill: #ffffff;
 }
 
