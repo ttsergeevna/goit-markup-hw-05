@@ -651,6 +651,7 @@ font-family: inherit;
 }
 
 .form-label-div {
+    width: 360px;
     margin-bottom: 8px;
     
 }
@@ -728,6 +729,7 @@ font-family: inherit;
 .form-container {
     /* position: relative; */
     margin-bottom: 16px;
+    width: 360px;
 }
 
 .user-commen{
@@ -836,11 +838,6 @@ font-family: inherit;
     fill: #2E2F42;
 }
 
-/* .icon:hover,
-.icon:focus {
-    fill: #4D5AE5;
-} */
-
 .form-input:focus+.icon{
     fill:#4D5AE5;
 }
@@ -859,11 +856,6 @@ font-family: inherit;
     background: #4D5AE5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border: none;
-
-    /* padding: 16px 32px;
-    border-radius: 4px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    border-style: none; */
 
 }
 
