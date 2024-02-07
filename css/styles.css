@@ -723,7 +723,6 @@ font-family: inherit;
 
 .form-input:focus .icon{
     fill: #4D5AE5;
-
 }
 
 .form-container {
@@ -798,7 +797,7 @@ font-family: inherit;
 
 
 .link-inline{
-    /* display: inline-block; */
+    display: inline-block;
     color: #8E8F99;
     
         /* Small Text */
