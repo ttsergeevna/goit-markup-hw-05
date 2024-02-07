@@ -774,20 +774,21 @@ font-family: inherit;
 
 .accept{
     position: absolute;
-        top: 50%;
+        /* top: 50%;
         left: 16px;
-        transform: translateY(-50%);
+        transform: translateY(-50%); */
 }
 
 .check{
-    /* position: relative;
-    display: flex;
+    position: relative;
+    /* display: flex;
     gap: 8px; */
     margin-bottom: 24px;
 
 }
 
 .true-checkbox{
+    position: relative;
     display: inline-flex;
     justify-content: center;
     align-items: center;
