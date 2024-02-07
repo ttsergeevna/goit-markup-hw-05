@@ -721,9 +721,9 @@ font-family: inherit;
     border-color: #4D5AE5;
 }
 
-.form-input:focus .icon{
+/* .form-input:focus .icon{
     fill: #4D5AE5;
-}
+} */
 
 .form-container {
     /* position: relative; */
@@ -836,13 +836,10 @@ font-family: inherit;
     fill: #2E2F42;
 }
 
-.icon:hover,
+/* .icon:hover, */
+
 .icon:focus {
     fill: #4D5AE5;
-
-    /* border: 1px solid #4D5AE5;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
-
 }
 
 
