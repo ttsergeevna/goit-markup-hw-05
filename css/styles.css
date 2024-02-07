@@ -836,8 +836,7 @@ font-family: inherit;
     fill: #2E2F42;
 }
 
-/* .icon:hover, */
-
+.icon:hover,
 .icon:focus {
     fill: #4D5AE5;
 }
