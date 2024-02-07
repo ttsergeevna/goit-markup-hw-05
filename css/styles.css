@@ -772,12 +772,6 @@ font-family: inherit;
     fill:#F4F4FD;
 }
 
-.accept{
-    position: absolute;
-        /* top: 50%;
-        left: 16px;
-        transform: translateY(-50%); */
-}
 
 .check{
     position: relative;
